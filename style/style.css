@@ -1,0 +1,140 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.title {
+    font-family: 'RB';
+    color: orange;
+}
+
+.text {
+    font-family: 'RB';
+    text-align: center;
+    color: #5546db;
+    max-width: 409px;
+}
+
+.text2 {
+    color: wheat;
+}
+
+.header_div,
+.main_div {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.img {
+    width: 300px;
+}
+
+.heart,
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.heart_text {
+    color: red;
+}
+
+.heart_line {
+    display: flex;
+}
+
+.div2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.video {
+    border-radius: 15px;
+    width: 350px;
+    height: 350px;
+}
+
+.div3 {
+    background: #67b572;
+    padding: 20px;
+    border: 5px solid red;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.heart_img {
+    width: 500px;
+    border-radius: 15px;
+}
+
+.box {
+    background: url(../img/background.png);
+    width: 500px;
+    height: 350px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    border: 3px solid yellow;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.item1 {
+    width: 156px;
+    height: 135px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+
+.box1 {
+    border-radius: 15px;
+    width: 150px;
+}
+
+.item3 {
+    width: 126px;
+    height: 198px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.box2 {
+    border-radius: 15px;
+    width: 120px;
+}
+
+.item5 {
+    width: 231px;
+    height: 139px;
+    position: absolute;
+    top: 66%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+}
+
+.box3 {
+    border-radius: 15px;
+    width: 225px;
+}
